@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center"><h2 class="light">Signup</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col s3 offset-s3 input-field">
+                <input id="fname" type="text" class="validate">
+                <label for="fname">First Name</label>
+            </div>
+
+            <div class="col s3 input-field">
+                <input id="lname" type="text" class="validate">
+                <label for="lname">Last Name</label>
+            </div>
+
+            <div class="col s3 offset-s3 input-field">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+            </div>
+
+            <div class="col s3 input-field">
+                <input id="address" type="text" class="validate">
+                <label for="address">Address</label>
+            </div>
+
+            <div class="col s3 offset-s3 input-field">
+                <input id="dob" type="text" class="datepicker">
+                <label for="dob">DOB</label>
+            </div>
+
+            <div class="col s3 input-field">
+                <input id="photoid" type="text" class="validate">
+                <label for="photoid">PhotoId</label>
+            </div>
+
+            <div class="col s3 offset-s3 input-field">
+                <input id="mobile" type="text" class="validate">
+                <label for="mobile">Mobile No.</label>
+            </div>
+
+            <div class="col s3 input-field">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="col s3 offset-s3 input-field">
+                <select id="gender">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                  </select>
+                  <label>Gender</label>
+            </div>
+
+            <div class="col s3 input-field">
+                <select id="userType">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Customer</option>
+                    <option value="2">Airlines</option>
+                    <option value="3">Travel Agent</option>
+                    <option value="4">Airport Authorities</option>
+                  </select>
+                  <label>User Type</label>
+            </div>
+
+            <div class="row"></div>
+    
+            <div class="col s12 center">
+                <button class="btn waves-effect waves-light" type="submit" onclick="signup()">Signup</button> 
+            </div>
+        </div>
+
+    </div>
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
